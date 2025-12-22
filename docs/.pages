@@ -1,0 +1,8 @@
+nav:
+  - 首页: index.md
+  - 项目进度: projects
+  - 成员周报: weekly_reports
+  - 会议记录: meetings
+  - 科研规划: research
+  - 资源与规范: resources
+  - 管理后台: admin/index.html
