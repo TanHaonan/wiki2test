@@ -22,7 +22,7 @@ collections:
 
   - name: "weekly_reports"
     label: "个人周报"
-    folder: "docs/progress/weekly_reports"
+    folder: "docs/weekly_reports"
     create: true
     slug: "{{slug}}"
     fields:

@@ -2,9 +2,14 @@ site_name: LM2 Group Wiki
 site_url: https://TanHaonan.github.io/wiki2test/
 site_description: LM2 Research Group Documentation
 
+repo_url: https://github.com/TanHaonan/wiki2test
+repo_name: TanHaonan/wiki2test
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
