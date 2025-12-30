@@ -25,9 +25,18 @@ mkdocs serve
 
 ## 📖 部署指南
 
-详细的部署和协作编辑配置指南，请参阅 [DEPLOYMENT.md](DEPLOYMENT.md)。
+### 快速部署
 
-该指南包括：
+按照 [CHECKLIST.md](CHECKLIST.md) 中的步骤检查清单完成部署。
+
+### 详细文档
+
+- **[CHECKLIST.md](CHECKLIST.md)** - 分步部署检查清单 ✅
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - 完整部署指南 📚
+- **[SETUP.md](SETUP.md)** - GitHub 和 Netlify 配置 ⚙️
+- **[QUICKREF.md](QUICKREF.md)** - 快速参考卡 📝
+
+部署指南包括：
 - 如何部署到 GitHub Pages
 - 如何配置 Netlify Identity 和 Git Gateway
 - 如何邀请用户协作编辑
