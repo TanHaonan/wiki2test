@@ -1,0 +1,28 @@
+name: 自动部署文档
+# 触发条件：当 main 分支有 push 操作时（包括网页端修改）
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+          
+      - name: 安装 MkDocs 和 Material 主题
+        # 这里如果要用插件，记得加上插件的名字，比如 mkdocs-git-revision-date-localized-plugin
+        run: pip install mkdocs-material 
+        
+      - name: 自动构建并部署到 gh-pages 分支
+        # 这个指令会自动把生成的网页推送到 gh-pages 分支
+        run: mkdocs gh-deploy --force

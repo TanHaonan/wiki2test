@@ -1,6 +1,16 @@
 site_name: LM2 Group Wiki
-site_url: https://LM2.com
+site_url: https://TanHaonan.github.io/wiki2test/
 site_description: LM2 Research Group Documentation
+
+# =========== 新增的核心配置 (必填) ===========
+# 1. 仓库名称，显示在右上角
+repo_name: 'LM2-Wiki' 
+# 2. 你的 GitHub 仓库完整地址 (请确保和浏览器地址栏一致)
+repo_url: 'https://github.com/TanHaonan/wiki2test'
+# 3. 编辑路径：告诉 MkDocs 点击铅笔后去哪里找源文件
+# 假设你的默认分支是 main，文档在 docs 文件夹下，通常是 edit/main/docs/
+edit_uri: 'edit/main/docs/'
+# ==========================================
 
 theme:
   name: material
