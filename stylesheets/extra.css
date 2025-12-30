@@ -1,0 +1,6 @@
+:root {
+  --md-primary-fg-color:        #660874;
+  --md-primary-fg-color--light: #882d96; /* Lighter shade for hover/accents */
+  --md-primary-fg-color--dark:  #4a0053; /* Darker shade */
+  --md-accent-fg-color:         #660874; /* Use same purple for accent or choose a complementary one */
+}

@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main # 默认分支，如果是 master 请修改
+
+# 媒体文件配置
+media_folder: "docs/assets/images"
+public_folder: "assets/images"
+
+# 本地测试配置 (运行 npx decap-server 时使用)
+local_backend: true
+
+# 集合配置
+collections:
+  - name: "projects"
+    label: "项目进度"
+    folder: "docs/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "项目名称", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"}
+
+  - name: "weekly_reports"
+    label: "个人周报"
+    folder: "docs/progress/weekly_reports"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "姓名", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"}
+
+  - name: "meetings"
+    label: "会议记录"
+    folder: "docs/meetings"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "会议主题", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"}
+
+  - name: "research"
+    label: "科研规划"
+    folder: "docs/research"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"}
+
+  - name: "resources"
+    label: "资源与规范"
+    folder: "docs/resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"}
+  
+  - name: "pages"
+    label: "其他页面"
+    files:
+      - file: "docs/index.md"
+        label: "首页"
+        name: "home"
+        fields:
+          - {label: "内容", name: "body", widget: "markdown"}
