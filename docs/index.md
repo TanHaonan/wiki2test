@@ -10,7 +10,7 @@ title: 欢迎来到 LM2 研究组 Wiki
 * **会议记录**: 浏览组会纪要和专题研讨内容。
 * **科研规划**: 跟踪会议投稿计划和待办事项。
 * **资源与规范**: 获取常用链接和实验室规范文档。
-
+修改完成
 ## 快速开始
 
 请从顶部导航栏选择相应板块开始浏览。
@@ -22,3 +22,4 @@ title: 欢迎来到 LM2 研究组 Wiki
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
