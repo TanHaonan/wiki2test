@@ -1,5 +1,5 @@
 site_name: LM2 Group Wiki
-site_url: https://LM2.com
+site_url: https://TanHaonan.github.io/wiki2test/
 site_description: LM2 Research Group Documentation
 
 theme:
@@ -60,4 +60,5 @@ markdown_extensions:
 #   - 会议记录: meetings/
 #   - 科研规划: research/
 #   - 资源与规范: resources/
+
 #   - 管理后台: admin/index.html
